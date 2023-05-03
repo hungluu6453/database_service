@@ -1,0 +1,4 @@
+from database import Database
+
+sql = "INSERT INTO voice (voice_filename) VALUES (%s)"
+values = (voice_filename)
